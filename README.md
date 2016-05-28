@@ -12,7 +12,7 @@ Kittipat Promdirek
 #### How to compile and run
 
 ```
-mpicc bubblesort_mpi.c -o bubmpi
+mpicc bubble_sort_mpi.c -o bubmpi
 ```
 
 #### Run
