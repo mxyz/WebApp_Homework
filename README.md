@@ -5,11 +5,11 @@ Kittipat Promdirek
 
 ============================================================
 
-## Homework III - MPI
+## Homework 3 - MPI
 
-### FileName: bubblesort_mpi.c
+### FileName: bubble_sort_mpi.c
 
-#### How to compile and run
+#### Compile
 
 ```
 mpicc bubble_sort_mpi.c -o bubmpi
@@ -21,6 +21,9 @@ mpicc bubble_sort_mpi.c -o bubmpi
 mpiexec -np 2 ./bubmpi
 ```
 
-##### note: This program can run on 2 or 4 nodes only.
+```
+mpiexec -np 4 ./bubmpi
+```
+###### note: This program can run on 2 or 4 nodes only.
 
 ============================================================
